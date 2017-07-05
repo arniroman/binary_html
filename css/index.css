@@ -1,3 +1,4 @@
+/*_______Header_______*/
 .header{
 box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.5);
 margin-bottom: 20px;
@@ -6,16 +7,13 @@ margin-bottom: 20px;
     width: 40%;
     float: left;
 }
-.user__avatar{
-    display: inline-block;
-    vertical-align: middle;
-}
 .header__right{
     width: 60%;
     float: right;
     text-align: right;
     line-height: 54.4px;
 }
+/*_______Header nav_______*/
 .nav__item{
     display: inline-block;
     padding: 5px;
@@ -24,12 +22,17 @@ margin-bottom: 20px;
     text-decoration: none;
     color: #414141;
 }
+.fa-cogs:hover{
+    color: #F34141;
+}
 .nav__item:hover{
     border-bottom: 1px solid #F34141;
 }
-.fa-cogs:hover{
-    color: #F34141;
-    border: none;
+/*_______Left menu_______*/
+.sidebar{
+    width: 200px;
+    height: 600px;
+    float: left;
 }
 .navleft__item{
     list-style: none;
@@ -46,11 +49,7 @@ margin-bottom: 20px;
 .navleft__link:hover{
      border-color: #F34141;
  }
-.sidebar{
-    width: 200px;
-    height: 600px;
-    float: left;
-}
+/*_______Content_______*/
 .page__content{
     margin-left: 250px;
     font-size: 0;
@@ -75,9 +74,9 @@ margin-bottom: 20px;
     left: 80%;
     bottom: 30%;
 }
+/*_______Footer top_______*/
 .list__top{
     text-align: center;
-    /*box-shadow: 0 0 5px 0  rgba(119,19,19, 0.5);*/
     border-bottom: 2px solid #fff;
 }
 .list__descr{
@@ -95,6 +94,7 @@ margin-bottom: 20px;
     text-decoration: none;
     color: #fff;
 }
+/*_______Footer bottom_______*/
 .footer__link{
     padding:0 20px;
 }
@@ -114,10 +114,10 @@ margin-bottom: 20px;
 .footer__link:hover{
     color: #F34141;
 }
-.fa{
+.fa-icon{
     color: #F34141;
 }
-.fa:hover{
+.fa-icon:hover{
     color:#fff;
 }
 
