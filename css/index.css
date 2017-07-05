@@ -1,0 +1,126 @@
+.header{
+box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.5);
+margin-bottom: 20px;
+}
+.header__left{
+    width: 40%;
+    float: left;
+}
+.user__avatar{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header__right{
+    width: 60%;
+    float: right;
+    text-align: right;
+    line-height: 54.4px;
+}
+.nav__item{
+    display: inline-block;
+    padding: 5px;
+}
+.nav__item a{
+    text-decoration: none;
+    color: #414141;
+}
+.nav__item:hover{
+    border-bottom: 1px solid #F34141;
+}
+.fa-cogs:hover{
+    color: #F34141;
+    border: none;
+}
+.navleft__item{
+    list-style: none;
+    text-align: left;
+    padding: 10px 10px 10px 0;
+}
+.navleft__link{
+    text-decoration: none;
+    color: #414141;
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    border-left: 5px solid transparent;
+}
+.navleft__link:hover{
+     border-color: #F34141;
+ }
+.sidebar{
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+.page__content{
+    margin-left: 250px;
+    font-size: 0;
+}
+.block__descr,.decor{
+    position: relative;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    padding: 10px 30px 30px 0px;
+    text-align: center;
+}
+.decor::after {
+    content:"";
+    width: 60px;
+    height: 50px;
+    background-image: url(../images/decore.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: 80%;
+    bottom: 30%;
+}
+.list__top{
+    text-align: center;
+    /*box-shadow: 0 0 5px 0  rgba(119,19,19, 0.5);*/
+    border-bottom: 2px solid #fff;
+}
+.list__descr{
+    display: inline-block;
+    width: 24%;
+    padding: 10px 0;
+}
+.list__item{
+    list-style: none;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+.list__link,.footer__link{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer__link{
+    padding:0 20px;
+}
+.list__footer__left,.list__footer__right{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+.list__footer__right{
+    flex-direction: row-reverse;
+}
+.list__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__link:hover{
+    color: #F34141;
+}
+.fa{
+    color: #F34141;
+}
+.fa:hover{
+    color:#fff;
+}
+
+
+
+
