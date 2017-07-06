@@ -77,11 +77,13 @@
 }
 /*_______Footer top_______*/
 .list__top{
-    text-align: center;
-    border-bottom: 2px solid #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 0 100px;
+    box-shadow: 0 10px 23px 0 rgba(20,10,0, 0.5);
 }
 .list__descr{
-    display: inline-block;
     width: 24%;
     padding: 10px 0;
 }
@@ -94,6 +96,9 @@
     font-size: 16px;
     text-decoration: none;
     color: #fff;
+}
+.list__link:hover{
+    color: #3AE2CE;
 }
 /*_______Footer bottom_______*/
 .footer__link{
@@ -111,6 +116,7 @@
 .list__bottom{
     display: flex;
     justify-content: space-between;
+    padding: 0 40px;
 }
 .footer__link:hover{
     color: #F34141;
