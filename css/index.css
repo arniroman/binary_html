@@ -1,7 +1,8 @@
 /*_______Header_______*/
 .header{
-box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.5);
-margin-bottom: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.5);
+    margin-bottom: 20px;
+    height: 64px;
 }
 .header__left{
     width: 40%;
